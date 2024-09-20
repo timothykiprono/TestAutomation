@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_Kenya Revenue Authority/a_Con
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Kenya Revenue Authority/input__xxZTT9p2wQ'), '8SQVv/p9jVRU+wyPoiTlNQ==')
 
-WebUI.setText(findTestObject('Object Repository/Page_Kenya Revenue Authority/input__captcahText'), '4')
+WebUI.setText(findTestObject('Object Repository/Page_Kenya Revenue Authority/input__captcahText'), '8')
 
 WebUI.click(findTestObject('Object Repository/Page_Kenya Revenue Authority/a_Login'))
 
