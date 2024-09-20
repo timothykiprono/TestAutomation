@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>demoParameterization</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>66348637-ee4f-4050-a1a5-038a0841eda7</testSuiteGuid>
+   <testCaseLink>
+      <guid>be06b537-5175-4ebf-b281-7f6873004a0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/itax_portal/iTaxPortalLogin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7d1d4607-bae4-43d7-aefe-4a9238b80588</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/loginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7d1d4607-bae4-43d7-aefe-4a9238b80588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>52e369e9-6f9c-4a68-80dd-9ca4fcc55608</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7d1d4607-bae4-43d7-aefe-4a9238b80588</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>12bdfa4f-c186-49d2-bc06-9cad249c84e4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
