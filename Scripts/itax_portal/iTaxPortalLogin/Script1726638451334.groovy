@@ -41,5 +41,3 @@ WebUI.verifyTextPresent('Welcome', false)
 
 WebUI.closeBrowser()
 
-WebUI.authenticate('', '', '', 0)
-
